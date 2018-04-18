@@ -33,6 +33,7 @@ public class MapDataTest {
 		print(MapData.map(new CountingGenerator.Character(), "Value",6));
 		print(MapData.map(new Letters(),new RandomGenerator.String(3)));
 		print(MapData.map(new Letters(), "pop"));
+		
 	}
 
 }
